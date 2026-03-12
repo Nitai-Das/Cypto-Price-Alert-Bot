@@ -38,8 +38,8 @@ def price_tracking():
 
 
 async def send_telegram_message(message):
-    bot_token = '8671961779:AAHTV87WfZ4Stj4EFmAZh5x3CmfwjrdOxwg'
-    chatID = '1154954021'
+    bot_token = 'BOT_TOKEN'
+    chatID = 'CHAT_ID'
 
     bot = Bot(token=bot_token)
     await bot.send_message(chat_id=chatID, text=message)
@@ -48,3 +48,4 @@ async def send_telegram_message(message):
 while True:
     price_tracking()
     time.sleep(60)
+
