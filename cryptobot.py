@@ -47,4 +47,5 @@ async def send_telegram_message(message):
 
 while True:
     price_tracking()
-    time.sleep(60)
+    time.sleep(3600)
+
